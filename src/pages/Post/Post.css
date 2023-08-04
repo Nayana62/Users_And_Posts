@@ -1,0 +1,40 @@
+.post > h1 {
+  text-align: center;
+}
+
+.post_card {
+  display: flex;
+  flex-direction: column;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.post_card img {
+  width: 500px;
+  height: 200px;
+  align-self: center;
+  object-fit: cover;
+}
+
+.post_card > h4 {
+  font-size: 25px;
+  font-weight: normal;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+}
+
+.text > span {
+  font-size: 22px;
+}
+
+.text > p {
+  font-size: 15px;
+  text-align: justify;
+}
+
+.post_card span {
+  font-size: 20px;
+}

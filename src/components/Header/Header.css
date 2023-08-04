@@ -1,0 +1,22 @@
+.header {
+  height: 80px;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.header div {
+  text-transform: uppercase;
+  color: #9c9c9c;
+  font-size: 18px;
+}
+
+.active {
+  color: #ff3f4a !important;
+}
+
+.header a {
+  text-decoration: none;
+}
